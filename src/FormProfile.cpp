@@ -2,6 +2,9 @@
 #include "MyContext.hpp"
 
 #include <fstream>
+#include <sstream>
+#include<iostream>
+#include<istream>
 
 void readFormProfile() noexcept{
     std::ifstream fin(FORMPROFILE_FILE);
